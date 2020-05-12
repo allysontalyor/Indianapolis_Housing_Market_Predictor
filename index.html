@@ -15,6 +15,56 @@
 
 </head>
 <body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="box">
+          <h3  align="center" class="section-title">Enter Your Preferences</h3>
+          <hr>
+          <ul class="list-group" id="filters">
+          <div class="item" data-aos="flip-up">
+            <li class="filter list-group-item">
+                <label for="zip">Select A Zip</label>
+                <input class="form-control" id="Zip_Code" type="number" placeholder="46107">
+            </li>
+          </div>
+
+          <div class="item" data-aos="flip-up">
+            <li class="filter list-group-item">
+                <label for="beds">Which Month Are You Intending to Buy</label>
+                <input class="form-control" id="Month" type="text" placeholder="06">
+            </li>
+          </div>
+
+          <div class="item" data-aos="flip-up">
+              <li class="filter list-group-item">
+                <label for="predict">Prediction</label>
+                  <table id="Prediction-table" class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th class="table-head">Median List Price</th>
+                        <th class="table-head">Median List Price per Square Foot</th>
+                        <th class="table-head">Median Price 1 Bedroom</th>
+                        <th class="table-head">Median Price 2 Bedroom</th>
+                        <th class="table-head">Median Price 3 Bedroom</th>
+                        <th class="table-head">Median Price 4 Bedroom</th>
+                        <th class="table-head">Median Price 5 Bedroom</th>
+                        <th class="table-head">Zip</th>
+                        <th class="table-head">Month Of Purchase</th>
+                      </tr>
+                    </thead>
+                    <tbody></tbody>
+                  </table>
+              </li>
+            </div>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -102,7 +152,10 @@
     crossorigin="anonymous"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="static/js/logic.js"></script>
+  <script src="static/js/housing_df_predictor.js"></script>
+  <script src="static/js/app.js"></script>
 
 </body>
 </html>
