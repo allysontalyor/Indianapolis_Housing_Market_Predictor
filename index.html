@@ -16,11 +16,27 @@
 </head>
 <body>
 
+  <!-- Navigation Section -->
+<div class="navigation">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" style="background-color: #0BADA6;" href="index.html">Third Row Housing Price Predictor</a>
+    <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+
+      </ul>
+    </div>
+  </nav>
+</div>
+
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="box">
-          <h3  align="center" class="section-title">Enter Your Preferences</h3>
+          <h3  class="title">Enter Your Preferences</h3>
           <hr>
           <ul class="list-group" id="filters">
           <div class="item" data-aos="flip-up">
@@ -34,6 +50,13 @@
             <li class="filter list-group-item">
                 <label for="beds">Which Month Are You Intending to Buy</label>
                 <input class="form-control" id="Month" type="text" placeholder="06">
+            </li>
+          </div>
+
+          <div class="item" data-aos="flip-up">
+            <li class="filter list-group-item">
+                <label for="beds">How Many Bedrooms</label>
+                <input class="form-control" id="Bedroom" type="text" placeholder="1Br">
             </li>
           </div>
 
@@ -59,6 +82,34 @@
               </li>
             </div>
           </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="box">
+          <h3  align="center" class="title">Machine Learning Linear Regression</h3>
+          <hr>
+          <div class="item1" data-aos="fade-up-left">
+            <div id="sample-metadata" class="panel-body"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="box">
+          <h3  align="center" class="title">Machine Learning Tensorflow Regression Model</h3>
+          <hr>
+          <div class="item1" data-aos="fade-up-left">
+            <div id="sample-metadata" class="panel-body"></div>
           </div>
         </div>
       </div>
@@ -117,7 +168,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="box">
-            <h3  align="center" class="section-title">Architecture</h3>
+            <h3  align="center" class="title">Architecture</h3>
             <hr>
             <div class="item1" data-aos="fade-up-left">
               <div id="sample-metadata" class="panel-body"></div>
@@ -130,10 +181,23 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
+          <div class="box">
+            <h3  align="center" class="title">The Sources</h3>
+            <hr>
+            <div class="item1" data-aos="fade-up-left">
+              <p align="center">House Price Data https://www.quandl.com/</p>
+              <p align="center">Tensorflow Regression Model Example https://www.tensorflow.org/tutorials/keras/regression</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
           <h4  align="center" class="section-title">The Team</h4>
           <div class="item" data-aos="flip-up"></div>
-          <h4  align="center" class="section-title">The Sources</h4>
-          <div class="item" data-aos="fade-left"></div>
         </div>
       </div>
     </div>

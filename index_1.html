@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Housing Value Prediction By ThirdRow</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="static/css/reset.css">
+  <link rel="stylesheet" href="static/css/anotherstyle.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Content Section -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="box">
+          <h3  align="center" class="section-title">Enter The Input</h3>
+          <hr>
+          <div class="item" data-aos="flip-up">
+            <li class="filter list-group-item">
+                <label for="zip">Select A Zip</label>
+                <select id="selDataset" onchange="optionChanged(this.value)"></select>
+            </li>
+          </div>
+          <div class="item" data-aos="flip-up">
+            <li class="filter list-group-item">
+                <label for="beds">How Many Bedrooms</label>
+                <input class="form-control" id="beds" type="text" placeholder="1br">
+            </li>
+          </div>
+          <div class="item" data-aos="flip-up">
+            <li class="filter list-group-item">
+                <label for="month">Which Month Are You Planning To Buy</label>
+                <input class="form-control" id="month" type="text" placeholder="July">
+            </li>
+          </div>
+          <div class="item" data-aos="flip-up">
+            <li class="filter list-group-item">
+                <label for="predict">Prediction</label>
+                <input class="form-control" id="predict" type="button" placeholder="predict">
+            </li>
+          </div>
+          <div class="item" data-aos="flip-up">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="box">
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="box">
+            <h3  align="center" class="section-title">Architecture</h3>
+            <hr>
+            <div class="item1" data-aos="fade-up-left">
+              <div id="sample-metadata" class="panel-body"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h4  align="center" class="section-title">The Team</h4>
+          <div class="item" data-aos="flip-up"></div>
+          <h4  align="center" class="section-title">The Sources</h4>
+          <div class="item" data-aos="fade-left"></div>
+        </div>
+      </div>
+    </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer">Copyright &copy; the internet gods</div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="static/js/logic.js"></script>
+  <script src="static/js/app.js"></script>
+
+</body>
+
+</html>
