@@ -40,8 +40,8 @@ color: rgb(175, 175, 175) !important;
 }
 /* Images */
 img{
-    width:100% !important;
-    height:100% !important;
+    width:80% !important;
+    height:80% !important;
 }
 .active, .panel:hover{
     border-color:#0BADA6;
@@ -124,4 +124,30 @@ button:focus {
     outline: 5px auto -webkit-focusring-color;
 
     }
+}
+
+/* Child Text Container */
+.content_img div{
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ color: white;
+ margin-bottom: 5px;
+ font-family: sans-serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear;
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+.content_img:hover{
+ cursor: pointer;
+}
+
+.content_img:hover div{
+ width: 200px;
+ padding: 8px 15px;
+ visibility: visible;
+ opacity: 0.8;
 }
