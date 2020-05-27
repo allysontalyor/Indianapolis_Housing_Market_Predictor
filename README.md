@@ -6,6 +6,7 @@ A dashboard was created using past housing data to answer questions that buyers 
 
 What is the median list price in each zip code?
 
+
 How does the median list price vary over the course of a year (for a single zip code)?
 Which zip codes had the greatest percent change over the past year?
 
