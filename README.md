@@ -6,7 +6,7 @@ A dashboard was created using past housing data to answer questions that buyers 
 
 What is the median list price in each zip code?
 <p align="center">
-  <img width="600" height="200" src="https://github.com/allysontalyor/Indianapolis_Housing_Market_Predictor/blob/master/medianListPriceMap.jpg">
+  <img width="600" height="200" src="https://github.com/allysontalyor/Indianapolis_Housing_Market_Predictor/blob/master/medianListPriceMap.png">
 </p>
 
 
