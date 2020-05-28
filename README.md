@@ -5,7 +5,7 @@ Housing market data, compiled monthly, was used to show trends in the Indianapol
 A dashboard was created using past housing data to answer questions that buyers might ask.  Some of these questions included:
 
 What is the median list price in each zip code?
-
+![Image of Median List Price by Zip Code Map](https://github.com/allysontalyor/Indianapolis_Housing_Market_Predictor/master/medianListPriceMap.png)
 
 How does the median list price vary over the course of a year (for a single zip code)?
 Which zip codes had the greatest percent change over the past year?
