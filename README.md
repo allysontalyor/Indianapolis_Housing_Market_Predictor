@@ -6,7 +6,7 @@ A dashboard was created using past housing data to answer questions that buyers 
 
 What is the median list price in each zip code?
 <p align="center">
-  <img width="450" height="300" src="https://github.com/allysontalyor/Indianapolis_Housing_Market_Predictor/blob/master/medianListPriceMap.png">
+  <img width="450" height="200" src="https://github.com/allysontalyor/Indianapolis_Housing_Market_Predictor/blob/master/medianListPriceMap.png">
 </p>
 
 
@@ -25,7 +25,7 @@ Data was obtained from Zillow, using a free api call from Quandl.  Data was miss
 
 The machine learning model used a TensorFlow neural net (Sequential), with three input variables: number of bedrooms, zip code, month, and year.  These variables were one-hot encoded using .get-dummies.  Predicted variables were: median list price per number of bedrooms, median list price per zip code, and median home value (single family home).  The predicted results were displayed in table format and on a map, giving the user the chance to input the desired month, zip code, and number of bedrooms.
 <p align="center">
-  <img width="500" height="300" src="https://github.com/allysontalyor/Indianapolis_Housing_Market_Predictor/blob/master/predictedDisplay.png">
+  <img width="700" height="300" src="https://github.com/allysontalyor/Indianapolis_Housing_Market_Predictor/blob/master/predictedDisplay.png">
 </p>
 
 The model was evaluated by plotting the predicted values alongside past values.  Next steps would include modifying the model to evaluate overfitting, creating a second model for comparison using a linear regression in sklearn, and modifying the layers of the neural net.
